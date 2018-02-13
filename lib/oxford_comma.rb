@@ -1,6 +1,8 @@
 def oxford_comma(array)
 
-array.join(",")
+if array == array = [element, element]
+  array.join("and")
+
 
 
 end
