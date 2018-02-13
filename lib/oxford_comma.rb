@@ -8,7 +8,7 @@ if array.length == 1
 elsif array.length == 2
   return array.join(" and ")
 elsif array.length >= 3
-   array[-1] = "and kiwi"
+   array[-1] = "and #{array[-1]}"
 end
 #binding.pry
 end
