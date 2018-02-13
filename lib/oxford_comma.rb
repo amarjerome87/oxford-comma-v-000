@@ -1,3 +1,5 @@
+require pry
+
 def oxford_comma(array)
 
 if array == (1)
@@ -6,6 +8,7 @@ elsif array == (2)
   return array.join("and")
 elsif array == (1..3)
   return array.join(",","and")
+  binding.pry
 end
 
 
