@@ -8,8 +8,8 @@ elsif array == (2)
   return array.join("and")
 elsif array == (1..3)
   return array.join(",","and")
-  binding.pry
 end
+binding.pry
 
 
 
